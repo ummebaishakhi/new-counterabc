@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#countlabel{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    color:green;
+}
+h2{
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color:rgb(46, 46, 247);
+}
+#increasebtn,#decreasebtn,#resetbtn{
+    text-align: center;
+    border:2px solid blue;
+    border-radius: 5px;
+    color:blue;
+}
+#increasebtn:hover,#decreasebtn:hover,#resetbtn:hover{
+    color:aqua;
+
+}
+.box{
+    text-align: center;
+}
+
+.container{
+    border:5px solid blue;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 40%;
+    background-color: rgb(73, 72, 72);
+}
+@media(max-width: 786px){
+    #container h2{
+        color:red;
+    }
+}
+
+
+
+
